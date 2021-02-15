@@ -1,7 +1,7 @@
 /***** MEDIA QUERIES SECTION ******/
 
 @media screen and (max-width: 490px) {
-  #first-part h1 {
+  #first-header h1 {
     font-size: 3.2rem;
     letter-spacing: 10px;
   }
@@ -14,18 +14,18 @@
   body {
     text-align: center;
   }
-  #second-part .second-heading{
+  #about-me .second-heading{
     padding-top: 10rem;
   
   }
-     #third-part .card-padding{
+     #gallery .card-padding{
       text-align: center;
       justify-content: center;
     }
-    #third-part {
+    #gallery {
       margin-top: 8rem;
     }
-    #fourth-part .img-fluido{
+    #our-services .img-fluido{
       max-width: 80%;
       height: auto;
       position: inherit;
@@ -35,21 +35,21 @@
 
 }
 @media only screen and (max-width: 768px) and (min-width: 490px) {
-  #second-part .padding-top{
+  #about-me .padding-top{
     margin-top: 10rem ;
     color:tomato;
   
   }
-  #third-part {
+  #gallery {
     /* padding-top: 4rem; */
     margin-top: 8rem;
   }
-#third-part .card-padding{
+#gallery .card-padding{
   margin: 0;
   text-align: center;
 }
 
-#fourth-part .img-fluido{
+#our-services .img-fluido{
   max-width: 80%;
   height: auto;
   position: inherit;
@@ -66,19 +66,19 @@ padding-bottom: 10rem;
 margin-bottom: 10rem;
   
   }
-  #second-part h5{
+  #about-me h5{
     margin-top: 30rem ;
   
   }
-  #third-part {
+  #gallery {
   margin-top: 10rem;
   }
   
-#third-part {
+#gallery {
   padding-top: 5rem;
   margin-top: 22rem;
 }
-#fourth-part .img-fluido{
+#our-services .img-fluido{
   max-width: 80%;
   height: auto;
   position: inherit;
@@ -89,8 +89,9 @@ margin-bottom: 10rem;
 }
 
 @media only screen and (min-width: 997px) {
-.margin-top {
+#testimonials {
   margin-top: 2rem;
+  padding-top: 4rem;
 }
 
 }
@@ -145,7 +146,7 @@ li a {
 
 /***** FIRST SECTION ******/
 
-#first-part{
+#first-header{
   height: 670px;
 }
 
@@ -205,7 +206,12 @@ p {
   font-weight: lighter;
 
 }
-/***** THIRD SECTION ******/
+/***** GALLERY SECTION ******/
+#gallery {
+  padding: 3rem 0 ;
+  background-image: url(/images/bg-gallery-01-01.svg)
+  
+}
 .card-padding {
   margin:2.5rem 0rem 2.5rem 0rem;
   
@@ -223,15 +229,14 @@ body {
 }
 
 
-/***** FOURTH SECTION ******/
+/***** OUR SERVICES SECTION ******/
 .center-al{
   text-align: center;
 justify-content: center;}
 
 .myButton {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	background-color:#ffffff;
+	/* box-shadow:inset 0px 1px 0px 0px #ffffff; */
+
 	border:1px solid #67254a;
 	display:inline-block;
 	cursor:pointer;
@@ -262,15 +267,16 @@ justify-content: center;}
   position: absolute;
  
 }
-    /* width: 100%; */
-   */
+.background-picture-services {
+  background-image: url(/images/background-leaves-01.svg);
+  background-repeat: no-repeat;
+}
+/***** TESTIMONIAL SECTION ******/
 
 
-/***** FIFTH SECTION ******/
-
-
-#fifth-part {
-  height: 900px;
+#testimonials {
+  padding: 5rem 0 5rem 0;
+  background-image: url(/images/bg-gallery-01-01.svg)
 }
 .background-cards {
 background-color: steelblue;
@@ -289,9 +295,24 @@ background-color: steelblue;
 .light-bg {
   background-color: white;
 }
-#fifth-part h6 {
+#testimonials h6 {
   font-size: 22px;
 }
+
+#testimonials p {
+  margin: 2rem 3rem;
+}
+
+/***** QUOTE SECTION ******/
+.quote-img{
+  height: 200px;
+  opacity: 50%;
+  margin: 3rem;
+}
+#call-to-action {
+  background-image: url(/images/bg-gallery-01-01.svg)
+}
+
 /* 
 colors
 #67254A 

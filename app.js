@@ -18,10 +18,6 @@ app.get('/',(req, res) => {
 });
 
 
-
-
-
-
 app.listen(4000,() =>{
     console.log('Server started on local port 4000 bitchaos');
 });
