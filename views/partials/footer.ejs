@@ -1,0 +1,33 @@
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("navigationBar");
+var sticky = header.offsetTop;
+var logo = document.getElementById("logo");
+var border = document.getElementById("border");
+
+function myFunction() {
+if (window.pageYOffset > sticky) {
+header.classList.add("sticky");
+logo.classList.add("shrink");
+logo.classList.remove("big-logo");
+border.classList.remove("border-top-and-bottom");
+
+} else {
+header.classList.remove("sticky");
+logo.classList.remove("shrink")
+logo.classList.add("big-logo")
+border.classList.add("border-top-and-bottom");
+
+}
+}
+
+</script>
+  
+</body>
+</html>
