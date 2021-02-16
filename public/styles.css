@@ -309,9 +309,18 @@ background-color: steelblue;
   opacity: 50%;
   margin: 3rem;
 }
+
+/***** CALL TO ACTION SECTION ******/
+
+
 #call-to-action {
   background-image: url(/images/bg-gallery-01-01.svg)
 }
+.quote-bg {
+  background-image: url(/images/quote-marks.jpg);
+}
+
+
 
 /* 
 colors
