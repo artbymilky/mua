@@ -316,10 +316,15 @@ background-color: steelblue;
 #call-to-action {
   background-image: url(/images/bg-gallery-01-01.svg)
 }
-.quote-bg {
-  background-image: url(/images/quote-marks.jpg);
-}
 
+.quote-bg {
+  background-image: url(/images/quoty-03.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.p-quote {
+  padding: 5rem 0 5rem 0;
+}
 
 
 /* 
